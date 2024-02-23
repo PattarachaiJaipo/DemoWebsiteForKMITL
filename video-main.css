@@ -1,0 +1,125 @@
+.pagemainwrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  left: 0;
+  top: 60px;
+}
+#funnyorange {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  display: none;
+}
+.topmain {
+  background-color: rgb(255, 158, 123);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: block;
+}
+#logo-main {
+  width: 40px;
+  padding: 10px;
+}
+#textseachings {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 30px;
+}
+#textseach {
+  position: relative;
+  font-size: 15px;
+  padding: 8px;
+}
+#seach-enter {
+  padding: 5px;
+}
+#first-1 {width: 100px;}
+#first-2 {width: 100px;}
+#first-3 {width: 100px;}
+#first-1 {height: 30px;}
+#first-2 {height: 30px;}
+#first-3 {height: 30px;}
+.choose-trend {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px;
+  width: 400px;
+}
+.videosmain {
+  position: absolute;
+  display: flex;
+  left: 100px;
+  top: 100px;
+}
+#vids-1, #vids-2, #vids-3, #vids-4, #vids-5 {
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+#vidstext1, #vidstext2, #vidstext3, #vidstext4, #vidstext5 {
+  position: relative;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding-left: 7px;
+}
+
+.TrendingMain {
+  left: 26px;
+  position: absolute;
+  top: 350px;
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255);
+  font-size: 3ch;
+}
+.videosmain2 {
+  position: absolute;
+  display: flex;
+  left: 100px;
+  top: 450px;
+}
+#vids-6, #vids-7, #vids-8, #vids-9, #vids-10{
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.bottomwrapper {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+.bottommain {
+  position: relative;
+  bottom: 0;
+  background-color: rgb(255, 150, 112);
+  width: 100%;
+  height: 100px;
+  left: 0;
+
+}
+
+#bottomimg1, #bottomimg2, #bottomimg3 {
+  width: 50px;
+  height: 50px;
+}
+#languagediv{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
